@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 	"github.com/stretchr/testify/require"
 )
 

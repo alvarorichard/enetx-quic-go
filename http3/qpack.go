@@ -7,10 +7,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/enetx/g"
-	"github.com/enetx/quic-go"
-	dynamic "github.com/enetx/quic-go/internal/qpack"
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-g"
+	"github.com/alvarorichard/enetx-quic-go"
+	dynamic "github.com/alvarorichard/enetx-quic-go/internal/qpack"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 	"github.com/quic-go/qpack"
 )
 

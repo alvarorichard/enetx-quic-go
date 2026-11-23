@@ -3,7 +3,7 @@ package http3
 import (
 	"context"
 
-	"github.com/enetx/quic-go"
+	"github.com/alvarorichard/enetx-quic-go"
 )
 
 // StreamPriority configures local QUIC scheduling of request stream data.

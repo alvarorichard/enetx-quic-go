@@ -4,8 +4,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/enetx/quic-go/internal/udp"
-	"github.com/enetx/quic-go/internal/utils"
+	"github.com/alvarorichard/enetx-quic-go/internal/udp"
+	"github.com/alvarorichard/enetx-quic-go/internal/utils"
 
 	"github.com/stretchr/testify/require"
 )

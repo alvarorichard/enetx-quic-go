@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/internal/utils"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/utils"
 )
 
 // LogFrame logs a frame, either sent or received

@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/enetx/http"
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/qlogwriter"
+	"github.com/alvarorichard/enetx-http"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter"
 )
 
 // RedactHeaders wraps a QUIC connection tracer to redact HTTP/3 header and trailer field values.

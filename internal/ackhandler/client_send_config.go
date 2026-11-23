@@ -1,6 +1,6 @@
 package ackhandler
 
-import "github.com/enetx/quic-go/internal/congestion"
+import "github.com/alvarorichard/enetx-quic-go/internal/congestion"
 
 // ClientSendConfig separates wire/loss bookkeeping from sender arithmetic.
 // Server constructors ignore these application-selected client mechanisms.

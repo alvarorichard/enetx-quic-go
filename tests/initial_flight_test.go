@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/internal/testdata"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/internal/testdata"
 	"github.com/stretchr/testify/require"
 )
 

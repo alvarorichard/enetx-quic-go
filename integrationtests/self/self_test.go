@@ -15,14 +15,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/http3"
-	"github.com/enetx/quic-go/integrationtests/tools"
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/internal/wire"
-	"github.com/enetx/quic-go/qlog"
-	"github.com/enetx/quic-go/qlogwriter"
-	"github.com/enetx/quic-go/testutils/events"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/http3"
+	"github.com/alvarorichard/enetx-quic-go/integrationtests/tools"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/wire"
+	"github.com/alvarorichard/enetx-quic-go/qlog"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter"
+	"github.com/alvarorichard/enetx-quic-go/testutils/events"
 
 	"github.com/stretchr/testify/require"
 )

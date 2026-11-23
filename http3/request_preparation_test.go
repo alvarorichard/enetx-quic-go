@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/g"
-	"github.com/enetx/http"
-	httpcommon "github.com/enetx/http/headerorder"
-	"github.com/enetx/quic-go"
+	"github.com/alvarorichard/enetx-g"
+	"github.com/alvarorichard/enetx-http"
+	httpcommon "github.com/alvarorichard/enetx-http/headerorder"
+	"github.com/alvarorichard/enetx-quic-go"
 	base "github.com/quic-go/qpack"
 	"github.com/stretchr/testify/require"
 )

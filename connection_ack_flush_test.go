@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/enetx/quic-go/internal/ackhandler"
-	"github.com/enetx/quic-go/internal/monotime"
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/ackhandler"
+	"github.com/alvarorichard/enetx-quic-go/internal/monotime"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"

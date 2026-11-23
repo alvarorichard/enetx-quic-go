@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 )
 
 // ClientSessionInfo is a snapshot of QUIC's locally remembered transport state.

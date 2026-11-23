@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/quic-go/internal/testdata"
-	"github.com/enetx/quic-go/internal/wire"
-	"github.com/enetx/quic-go/qlogwriter"
+	"github.com/alvarorichard/enetx-quic-go/internal/testdata"
+	"github.com/alvarorichard/enetx-quic-go/internal/wire"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter"
 	"github.com/stretchr/testify/require"
 )
 

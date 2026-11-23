@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 )
 
 // receivePacketBuffer preserves the default pool and opts into the existing

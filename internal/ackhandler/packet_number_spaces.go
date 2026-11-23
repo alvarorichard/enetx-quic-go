@@ -3,7 +3,7 @@ package ackhandler
 import (
 	"iter"
 
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 )
 
 // Each wire space owns its generator and history. Congestion control uses a

@@ -5,9 +5,9 @@ import (
 	"crypto/tls"
 	"testing"
 
-	"github.com/enetx/http"
-	"github.com/enetx/http/httptest"
-	"github.com/enetx/quic-go"
+	"github.com/alvarorichard/enetx-http"
+	"github.com/alvarorichard/enetx-http/httptest"
+	"github.com/alvarorichard/enetx-quic-go"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

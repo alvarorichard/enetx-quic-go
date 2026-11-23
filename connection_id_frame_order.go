@@ -4,8 +4,8 @@ import (
 	"cmp"
 	"slices"
 
-	"github.com/enetx/quic-go/internal/ackhandler"
-	"github.com/enetx/quic-go/internal/wire"
+	"github.com/alvarorichard/enetx-quic-go/internal/ackhandler"
+	"github.com/alvarorichard/enetx-quic-go/internal/wire"
 )
 
 // The native control queue is LIFO. Reorder only NEW_CONNECTION_ID slots in

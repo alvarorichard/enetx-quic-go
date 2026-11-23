@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/enetx/quic-go/internal/monotime"
+	"github.com/alvarorichard/enetx-quic-go/internal/monotime"
 )
 
 // WaitForReadReady waits for another protocol stream to make buffered data

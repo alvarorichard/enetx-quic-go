@@ -11,10 +11,10 @@ import (
 	"testing/synctest"
 	"time"
 
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/internal/udp"
-	"github.com/enetx/quic-go/testutils/simnet"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/udp"
+	"github.com/alvarorichard/enetx-quic-go/testutils/simnet"
 
 	"github.com/stretchr/testify/require"
 )

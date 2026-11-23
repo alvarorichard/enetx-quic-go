@@ -4,9 +4,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/enetx/quic-go/internal/monotime"
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/qlog"
+	"github.com/alvarorichard/enetx-quic-go/internal/monotime"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/qlog"
 )
 
 // rfcCubic keeps RFC 9438's curve and Reno-friendly estimate in bytes, with

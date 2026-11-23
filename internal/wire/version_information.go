@@ -5,8 +5,8 @@ import (
 	"errors"
 	"slices"
 
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 )
 
 // VersionInformation is RFC 9368's authenticated version negotiation data.

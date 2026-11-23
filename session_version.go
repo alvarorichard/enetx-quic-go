@@ -4,7 +4,7 @@ import (
 	"crypto/tls"
 	"time"
 
-	"github.com/enetx/quic-go/internal/handshake"
+	"github.com/alvarorichard/enetx-quic-go/internal/handshake"
 )
 
 // SessionVersion returns the negotiated QUIC version recorded locally alongside

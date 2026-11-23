@@ -4,8 +4,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/enetx/quic-go/http3"
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go/http3"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 	"github.com/stretchr/testify/require"
 )
 

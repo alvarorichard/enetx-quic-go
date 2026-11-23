@@ -3,8 +3,8 @@ package quic
 import (
 	"slices"
 
-	"github.com/enetx/quic-go/internal/qerr"
-	"github.com/enetx/quic-go/internal/wire"
+	"github.com/alvarorichard/enetx-quic-go/internal/qerr"
+	"github.com/alvarorichard/enetx-quic-go/internal/wire"
 )
 
 func (c *Conn) validatePeerTransportParameters(params *wire.TransportParameters) error {

@@ -1,6 +1,6 @@
 package quic
 
-import "github.com/enetx/quic-go/internal/ackhandler"
+import "github.com/alvarorichard/enetx-quic-go/internal/ackhandler"
 
 type AckPolicy = ackhandler.AckPolicy
 type AckReorderingMode = ackhandler.AckReorderingMode

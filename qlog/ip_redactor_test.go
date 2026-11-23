@@ -5,8 +5,8 @@ import (
 	"net/netip"
 	"testing"
 
-	"github.com/enetx/quic-go/qlogwriter"
-	"github.com/enetx/quic-go/testutils/events"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter"
+	"github.com/alvarorichard/enetx-quic-go/testutils/events"
 
 	"github.com/stretchr/testify/require"
 )

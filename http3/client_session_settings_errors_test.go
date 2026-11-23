@@ -6,8 +6,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/tlsquic"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/tlsquic"
 	"github.com/stretchr/testify/require"
 )
 

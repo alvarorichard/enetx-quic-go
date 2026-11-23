@@ -9,9 +9,9 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/quicvarint"
-	"github.com/enetx/quic-go/tlsquic"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go/tlsquic"
 )
 
 const clientSettingsPrefix = "quic-go h3 peer settings v1\x00"

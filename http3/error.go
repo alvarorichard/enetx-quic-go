@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/enetx/quic-go"
+	"github.com/alvarorichard/enetx-quic-go"
 )
 
 // Error is returned, possibly wrapped, by [Stream] and [RequestStream] operations,

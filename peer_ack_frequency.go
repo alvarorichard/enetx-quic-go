@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/enetx/quic-go/internal/ackhandler"
-	"github.com/enetx/quic-go/internal/monotime"
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/internal/wire"
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go/internal/ackhandler"
+	"github.com/alvarorichard/enetx-quic-go/internal/monotime"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/wire"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 )
 
 // PeerAckFrequency requests the peer's legacy Application Data ACK behavior.

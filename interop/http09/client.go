@@ -10,11 +10,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/enetx/http"
+	"github.com/alvarorichard/enetx-http"
 
 	"golang.org/x/net/idna"
 
-	"github.com/enetx/quic-go"
+	"github.com/alvarorichard/enetx-quic-go"
 )
 
 // MethodGet0RTT allows a GET request to be sent using 0-RTT.

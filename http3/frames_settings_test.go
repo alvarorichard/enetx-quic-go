@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/enetx/g"
-	"github.com/enetx/quic-go"
+	"github.com/alvarorichard/enetx-g"
+	"github.com/alvarorichard/enetx-quic-go"
 )
 
 func roundTripSettings(t *testing.T, sf *settingsFrame) *settingsFrame {

@@ -11,13 +11,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/g"
-	"github.com/enetx/http"
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/http3"
-	codec "github.com/enetx/quic-go/internal/qpack"
-	"github.com/enetx/quic-go/internal/testdata"
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-g"
+	"github.com/alvarorichard/enetx-http"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/http3"
+	codec "github.com/alvarorichard/enetx-quic-go/internal/qpack"
+	"github.com/alvarorichard/enetx-quic-go/internal/testdata"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 	"github.com/stretchr/testify/require"
 )
 

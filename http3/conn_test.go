@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/http3/qlog"
-	"github.com/enetx/quic-go/qlogwriter"
-	"github.com/enetx/quic-go/quicvarint"
-	"github.com/enetx/quic-go/testutils/events"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/http3/qlog"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go/testutils/events"
 	"github.com/stretchr/testify/require"
 )
 

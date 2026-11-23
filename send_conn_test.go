@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/internal/udp"
-	"github.com/enetx/quic-go/internal/utils"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/udp"
+	"github.com/alvarorichard/enetx-quic-go/internal/utils"
 
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"

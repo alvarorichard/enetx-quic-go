@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/http"
-	"github.com/enetx/http/httptrace"
+	"github.com/alvarorichard/enetx-http"
+	"github.com/alvarorichard/enetx-http/httptrace"
 
-	"github.com/enetx/quic-go/http3"
+	"github.com/alvarorichard/enetx-quic-go/http3"
 	"github.com/stretchr/testify/require"
 )
 

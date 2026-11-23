@@ -1,12 +1,12 @@
 package quic
 
 import (
-	"github.com/enetx/quic-go/internal/ackhandler"
-	"github.com/enetx/quic-go/internal/handshake"
-	"github.com/enetx/quic-go/internal/monotime"
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/internal/wire"
-	"github.com/enetx/quic-go/qlog"
+	"github.com/alvarorichard/enetx-quic-go/internal/ackhandler"
+	"github.com/alvarorichard/enetx-quic-go/internal/handshake"
+	"github.com/alvarorichard/enetx-quic-go/internal/monotime"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/wire"
+	"github.com/alvarorichard/enetx-quic-go/qlog"
 )
 
 // PeerPacketInfo describes a routed peer packet whose keys are unavailable.

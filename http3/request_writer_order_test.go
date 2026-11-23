@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/enetx/http"
-	httpcommon "github.com/enetx/http/headerorder"
-	"github.com/enetx/quic-go/http3/qlog"
+	"github.com/alvarorichard/enetx-http"
+	httpcommon "github.com/alvarorichard/enetx-http/headerorder"
+	"github.com/alvarorichard/enetx-quic-go/http3/qlog"
 )
 
 func fieldNames(fields []qlog.HeaderField) []string {

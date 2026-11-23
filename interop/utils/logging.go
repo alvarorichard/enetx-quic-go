@@ -9,9 +9,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/internal/utils"
-	"github.com/enetx/quic-go/qlogwriter"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/internal/utils"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter"
 )
 
 // GetSSLKeyLog creates a file for the TLS key log

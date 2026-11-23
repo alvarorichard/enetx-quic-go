@@ -4,7 +4,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 )
 
 // timeScaledBandwidth calculates the number of bytes that may be sent within

@@ -3,8 +3,8 @@ package ackhandler
 import (
 	"slices"
 
-	"github.com/enetx/quic-go/internal/monotime"
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/monotime"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 )
 
 // ResendEarlyData releases early packet accounting without congestion loss and

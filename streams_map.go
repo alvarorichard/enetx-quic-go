@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/enetx/quic-go/internal/monotime"
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/internal/qerr"
-	"github.com/enetx/quic-go/internal/wire"
+	"github.com/alvarorichard/enetx-quic-go/internal/monotime"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/qerr"
+	"github.com/alvarorichard/enetx-quic-go/internal/wire"
 )
 
 // StreamLimitReachedError is returned from [Conn.OpenStream] and [Conn.OpenUniStream]

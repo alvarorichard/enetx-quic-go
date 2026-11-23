@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 )
 
 // Grease selects the engine-generated reserved parameter in Order. It is a

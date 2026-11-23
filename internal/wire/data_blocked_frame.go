@@ -1,8 +1,8 @@
 package wire
 
 import (
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 )
 
 // A DataBlockedFrame is a DATA_BLOCKED frame

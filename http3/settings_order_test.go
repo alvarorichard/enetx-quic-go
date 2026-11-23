@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/enetx/g"
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-g"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 )
 
 func TestRuntimeDatagramsKeepExplicitSettingPosition(t *testing.T) {

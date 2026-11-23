@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/quic-go/internal/monotime"
+	"github.com/alvarorichard/enetx-quic-go/internal/monotime"
 
 	"github.com/stretchr/testify/require"
 )

@@ -4,8 +4,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/internal/qerr"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/qerr"
 
 	"github.com/stretchr/testify/require"
 )

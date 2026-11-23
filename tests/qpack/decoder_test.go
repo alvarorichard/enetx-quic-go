@@ -10,7 +10,7 @@ import (
 	"sync"
 	"testing"
 
-	dynamic "github.com/enetx/quic-go/internal/qpack"
+	dynamic "github.com/alvarorichard/enetx-quic-go/internal/qpack"
 	base "github.com/quic-go/qpack"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/http2/hpack"

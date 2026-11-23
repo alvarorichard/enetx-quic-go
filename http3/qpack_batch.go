@@ -4,8 +4,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 )
 
 // A request may borrow an idle encoder writer through encoding and the

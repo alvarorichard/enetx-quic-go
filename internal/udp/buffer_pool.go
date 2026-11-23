@@ -3,7 +3,7 @@ package udp
 import (
 	"sync"
 
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 )
 
 type PacketBuffer struct {

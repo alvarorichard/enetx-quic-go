@@ -1,9 +1,9 @@
 package quic
 
 import (
-	"github.com/enetx/quic-go/internal/ackhandler"
-	"github.com/enetx/quic-go/internal/monotime"
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/ackhandler"
+	"github.com/alvarorichard/enetx-quic-go/internal/monotime"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 )
 
 // releaseEarlyData gives setup writes their own send opportunity before callers

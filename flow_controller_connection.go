@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/enetx/quic-go/internal/monotime"
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/internal/qerr"
-	"github.com/enetx/quic-go/internal/utils"
+	"github.com/alvarorichard/enetx-quic-go/internal/monotime"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/qerr"
+	"github.com/alvarorichard/enetx-quic-go/internal/utils"
 )
 
 type connectionFlowController struct {

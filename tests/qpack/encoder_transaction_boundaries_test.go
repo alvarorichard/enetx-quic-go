@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	codec "github.com/enetx/quic-go/internal/qpack"
+	codec "github.com/alvarorichard/enetx-quic-go/internal/qpack"
 	base "github.com/quic-go/qpack"
 	"github.com/stretchr/testify/require"
 )

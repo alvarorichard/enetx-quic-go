@@ -1,9 +1,9 @@
 package congestion
 
 import (
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/internal/utils"
-	"github.com/enetx/quic-go/qlogwriter"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/utils"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter"
 )
 
 // Algorithm selects the congestion avoidance calculation, independently of pacing.

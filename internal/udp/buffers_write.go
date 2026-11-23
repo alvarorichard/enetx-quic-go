@@ -9,7 +9,7 @@ import (
 	"net"
 	"syscall"
 
-	"github.com/enetx/quic-go/internal/utils"
+	"github.com/alvarorichard/enetx-quic-go/internal/utils"
 )
 
 func setSendBuffer(c net.PacketConn) error {

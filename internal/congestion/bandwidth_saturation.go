@@ -5,7 +5,7 @@ import (
 	"math/bits"
 	"time"
 
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 )
 
 // saturatedBandwidthFromDelta retains whole-byte rounding without large-window overflow.

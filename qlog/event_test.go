@@ -9,12 +9,12 @@ import (
 	"testing/synctest"
 	"time"
 
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/internal/qerr"
-	"github.com/enetx/quic-go/internal/utils"
-	"github.com/enetx/quic-go/internal/wire"
-	"github.com/enetx/quic-go/qlogwriter"
-	"github.com/enetx/quic-go/qlogwriter/jsontext"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/qerr"
+	"github.com/alvarorichard/enetx-quic-go/internal/utils"
+	"github.com/alvarorichard/enetx-quic-go/internal/wire"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter/jsontext"
 
 	"github.com/stretchr/testify/require"
 )

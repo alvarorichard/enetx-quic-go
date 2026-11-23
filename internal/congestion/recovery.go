@@ -3,7 +3,7 @@ package congestion
 import (
 	"math/bits"
 
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 )
 
 // prr implements RFC 6937's proportional reduction and PRR-SSRB allowance.

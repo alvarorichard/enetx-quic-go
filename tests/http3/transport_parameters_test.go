@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/http"
-	"github.com/enetx/http/httptest"
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/http3"
-	"github.com/enetx/quic-go/qlog"
-	"github.com/enetx/quic-go/qlogwriter"
+	"github.com/alvarorichard/enetx-http"
+	"github.com/alvarorichard/enetx-http/httptest"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/http3"
+	"github.com/alvarorichard/enetx-quic-go/qlog"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter"
 )
 
 type parameterTrace struct{ received chan qlog.ParametersSet }

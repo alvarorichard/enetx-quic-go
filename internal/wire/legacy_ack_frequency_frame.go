@@ -6,8 +6,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 )
 
 // LegacyAckFrequencyFrame is the ACK_FREQUENCY draft with a single-byte

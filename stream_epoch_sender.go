@@ -3,7 +3,7 @@ package quic
 import (
 	"sync"
 
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 )
 
 // streamEpochSender prevents callbacks from rejected 0-RTT streams from reaching

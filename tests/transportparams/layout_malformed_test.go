@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/enetx/quic-go/transportparams"
+	"github.com/alvarorichard/enetx-quic-go/transportparams"
 	"github.com/stretchr/testify/require"
 )
 

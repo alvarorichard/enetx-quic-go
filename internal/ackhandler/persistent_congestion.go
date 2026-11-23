@@ -3,8 +3,8 @@ package ackhandler
 import (
 	"time"
 
-	"github.com/enetx/quic-go/internal/monotime"
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/monotime"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 )
 
 // persistentLossRange follows RFC 9002 section 7.6: loss of a long enough

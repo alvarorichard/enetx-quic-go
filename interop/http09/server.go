@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/enetx/http"
+	"github.com/alvarorichard/enetx-http"
 
-	"github.com/enetx/quic-go"
+	"github.com/alvarorichard/enetx-quic-go"
 )
 
 const NextProto = "hq-interop"

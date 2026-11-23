@@ -13,11 +13,11 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/enetx/http"
-	"github.com/enetx/http/httptrace"
+	"github.com/alvarorichard/enetx-http"
+	"github.com/alvarorichard/enetx-http/httptrace"
 
-	"github.com/enetx/g"
-	"github.com/enetx/quic-go"
+	"github.com/alvarorichard/enetx-g"
+	"github.com/alvarorichard/enetx-quic-go"
 	"golang.org/x/net/http/httpguts"
 )
 

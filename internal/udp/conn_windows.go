@@ -8,7 +8,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/enetx/quic-go/internal/utils"
+	"github.com/alvarorichard/enetx-quic-go/internal/utils"
 )
 
 func newConn(c OOBCapablePacketConn, supportsDF bool) (*basicConn, error) {

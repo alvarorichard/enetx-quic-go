@@ -4,7 +4,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 )
 
 // CapsuleType is the type of the capsule

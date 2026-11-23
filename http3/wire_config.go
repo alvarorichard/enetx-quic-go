@@ -10,12 +10,12 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/enetx/http"
-	httpcommon "github.com/enetx/http/headerorder"
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/http3/qlog"
-	"github.com/enetx/quic-go/qlogwriter"
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-http"
+	httpcommon "github.com/alvarorichard/enetx-http/headerorder"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/http3/qlog"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 	"github.com/quic-go/qpack"
 )
 

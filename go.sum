@@ -1,7 +1,3 @@
-github.com/enetx/g v1.1.1 h1:Lu3l3/Vy51cd52o1V37iCDmE5jAympCWQYHcb7AKlpI=
-github.com/enetx/g v1.1.1/go.mod h1:nVdbiRFOVdOb/TDVPB3gMaMd8161Wv6dQZYdqvg9IHE=
-github.com/enetx/http v1.0.49 h1:ose2jZEX5hZLcVpdWDX9dCEn3xNMGraddfHQTPZmKI4=
-github.com/enetx/http v1.0.49/go.mod h1:5gUSfUXVty5/7tAZxFKSX4anUMNS2CEf3ekjJFMAHQE=
 github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
 github.com/google/go-cmp v0.6.0/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
 github.com/jordanlewis/gcassert v0.0.0-20260313214104-ad3fae17affe h1:FtGO1RXzvaDpLQoZjV7WDX1oc2wZrjy3DwHwL2V4+yQ=

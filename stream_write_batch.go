@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 )
 
 // StreamWrite stages bytes and optionally FIN on an already opened local stream.

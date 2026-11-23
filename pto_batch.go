@@ -3,8 +3,8 @@ package quic
 import (
 	"errors"
 
-	"github.com/enetx/quic-go/internal/ackhandler"
-	"github.com/enetx/quic-go/internal/monotime"
+	"github.com/alvarorichard/enetx-quic-go/internal/ackhandler"
+	"github.com/alvarorichard/enetx-quic-go/internal/monotime"
 )
 
 func (c *Conn) primePTOHandshake(now monotime.Time) {

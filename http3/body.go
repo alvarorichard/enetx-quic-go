@@ -6,7 +6,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/enetx/quic-go"
+	"github.com/alvarorichard/enetx-quic-go"
 )
 
 // Settingser allows waiting for and retrieving the peer's HTTP/3 settings.

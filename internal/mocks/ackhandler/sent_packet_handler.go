@@ -13,10 +13,10 @@ import (
 	reflect "reflect"
 	time "time"
 
-	ackhandler "github.com/enetx/quic-go/internal/ackhandler"
-	monotime "github.com/enetx/quic-go/internal/monotime"
-	protocol "github.com/enetx/quic-go/internal/protocol"
-	wire "github.com/enetx/quic-go/internal/wire"
+	ackhandler "github.com/alvarorichard/enetx-quic-go/internal/ackhandler"
+	monotime "github.com/alvarorichard/enetx-quic-go/internal/monotime"
+	protocol "github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	wire "github.com/alvarorichard/enetx-quic-go/internal/wire"
 	gomock "go.uber.org/mock/gomock"
 )
 

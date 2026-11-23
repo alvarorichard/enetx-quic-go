@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/quic-go/internal/israce"
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/internal/qerr"
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go/internal/israce"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/qerr"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 
 	ossfuzzseeds "github.com/quic-go/go-ossfuzz-seeds"
 

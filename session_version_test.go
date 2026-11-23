@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 	"github.com/stretchr/testify/require"
 )
 

@@ -1,8 +1,8 @@
 package http3
 
 import (
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 )
 
 // Browser event loops process received control data before the next application

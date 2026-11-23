@@ -6,7 +6,7 @@ import (
 	"slices"
 	"sort"
 
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 )
 
 const (

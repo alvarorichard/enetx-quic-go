@@ -7,7 +7,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/enetx/quic-go"
+	"github.com/alvarorichard/enetx-quic-go"
 )
 
 const streamDatagramQueueLen = 32

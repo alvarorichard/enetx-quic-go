@@ -1,6 +1,6 @@
 package quic
 
-import "github.com/enetx/quic-go/internal/protocol"
+import "github.com/alvarorichard/enetx-quic-go/internal/protocol"
 
 // InitialPaddingMode selects where client datagrams containing Initial packets
 // carry their size padding. The mandatory header-protection sample padding stays

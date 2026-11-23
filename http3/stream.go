@@ -8,12 +8,12 @@ import (
 	"slices"
 	"time"
 
-	"github.com/enetx/http"
-	"github.com/enetx/http/httptrace"
+	"github.com/alvarorichard/enetx-http"
+	"github.com/alvarorichard/enetx-http/httptrace"
 
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/http3/qlog"
-	"github.com/enetx/quic-go/qlogwriter"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/http3/qlog"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter"
 	"github.com/quic-go/qpack"
 )
 

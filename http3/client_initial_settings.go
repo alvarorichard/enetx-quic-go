@@ -4,8 +4,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/enetx/g"
-	"github.com/enetx/quic-go"
+	"github.com/alvarorichard/enetx-g"
+	"github.com/alvarorichard/enetx-quic-go"
 )
 
 // startInitialSettings has one owner, including when the transport creates the

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/enetx/http"
+	"github.com/alvarorichard/enetx-http"
 
 	"github.com/stretchr/testify/require"
 )

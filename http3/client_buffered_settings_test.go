@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/http"
-	"github.com/enetx/quic-go"
-	transportlog "github.com/enetx/quic-go/qlog"
-	"github.com/enetx/quic-go/quicvarint"
-	"github.com/enetx/quic-go/testutils/events"
+	"github.com/alvarorichard/enetx-http"
+	"github.com/alvarorichard/enetx-quic-go"
+	transportlog "github.com/alvarorichard/enetx-quic-go/qlog"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go/testutils/events"
 	"github.com/stretchr/testify/require"
 )
 

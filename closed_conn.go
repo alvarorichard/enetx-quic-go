@@ -5,8 +5,8 @@ import (
 	"net"
 	"sync/atomic"
 
-	"github.com/enetx/quic-go/internal/udp"
-	"github.com/enetx/quic-go/internal/utils"
+	"github.com/alvarorichard/enetx-quic-go/internal/udp"
+	"github.com/alvarorichard/enetx-quic-go/internal/utils"
 )
 
 // A closedLocalConn is a connection that we closed locally.

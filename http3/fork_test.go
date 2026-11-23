@@ -3,7 +3,7 @@ package http3
 import (
 	"sort"
 
-	"github.com/enetx/g"
+	"github.com/alvarorichard/enetx-g"
 )
 
 // orderedTestSettings adapts upstream map fixtures without randomizing wire order.

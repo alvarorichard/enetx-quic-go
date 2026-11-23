@@ -6,10 +6,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/internal/utils"
-	"github.com/enetx/quic-go/internal/wire"
-	"github.com/enetx/quic-go/tlsquic"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/utils"
+	"github.com/alvarorichard/enetx-quic-go/internal/wire"
+	"github.com/alvarorichard/enetx-quic-go/tlsquic"
 	"github.com/stretchr/testify/require"
 )
 

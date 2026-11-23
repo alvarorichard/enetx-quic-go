@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/g"
-	"github.com/enetx/quic-go/tlsquic"
+	"github.com/alvarorichard/enetx-g"
+	"github.com/alvarorichard/enetx-quic-go/tlsquic"
 	"github.com/stretchr/testify/require"
 )
 

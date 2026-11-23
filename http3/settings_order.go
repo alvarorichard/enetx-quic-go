@@ -3,7 +3,7 @@ package http3
 import (
 	"fmt"
 
-	"github.com/enetx/g"
+	"github.com/alvarorichard/enetx-g"
 )
 
 // Preserve the explicit wire position of H3_DATAGRAM when it is already in the

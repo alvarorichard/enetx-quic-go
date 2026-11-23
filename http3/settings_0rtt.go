@@ -3,7 +3,7 @@ package http3
 import (
 	"bytes"
 
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 )
 
 const serverSettingsSessionTicketPrefix = "quic-go h3 settings v1"

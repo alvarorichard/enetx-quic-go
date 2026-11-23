@@ -8,10 +8,10 @@ import (
 	"math"
 	"testing"
 
-	"github.com/enetx/http"
+	"github.com/alvarorichard/enetx-http"
 
-	"github.com/enetx/quic-go/http3/qlog"
-	"github.com/enetx/quic-go/testutils/events"
+	"github.com/alvarorichard/enetx-quic-go/http3/qlog"
+	"github.com/alvarorichard/enetx-quic-go/testutils/events"
 	ossfuzzseeds "github.com/quic-go/go-ossfuzz-seeds"
 	"github.com/quic-go/qpack"
 	"github.com/stretchr/testify/require"

@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/internal/qtls"
-	"github.com/enetx/quic-go/internal/utils"
-	"github.com/enetx/quic-go/internal/wire"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/qtls"
+	"github.com/alvarorichard/enetx-quic-go/internal/utils"
+	"github.com/alvarorichard/enetx-quic-go/internal/wire"
 
 	ossfuzzseeds "github.com/quic-go/go-ossfuzz-seeds"
 )

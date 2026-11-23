@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/enetx/quic-go/internal/handshake"
-	"github.com/enetx/quic-go/internal/mocks"
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/handshake"
+	"github.com/alvarorichard/enetx-quic-go/internal/mocks"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

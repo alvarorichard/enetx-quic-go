@@ -6,9 +6,9 @@ import (
 	"net/textproto"
 	"time"
 
-	"github.com/enetx/http/httptrace"
+	"github.com/alvarorichard/enetx-http/httptrace"
 
-	"github.com/enetx/quic-go"
+	"github.com/alvarorichard/enetx-quic-go"
 )
 
 func traceGetConn(trace *httptrace.ClientTrace, hostPort string) {

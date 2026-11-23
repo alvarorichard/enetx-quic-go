@@ -8,7 +8,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 	ossfuzzseeds "github.com/quic-go/go-ossfuzz-seeds"
 
 	"github.com/stretchr/testify/require"

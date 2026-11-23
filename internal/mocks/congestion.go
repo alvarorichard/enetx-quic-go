@@ -12,8 +12,8 @@ package mocks
 import (
 	reflect "reflect"
 
-	monotime "github.com/enetx/quic-go/internal/monotime"
-	protocol "github.com/enetx/quic-go/internal/protocol"
+	monotime "github.com/alvarorichard/enetx-quic-go/internal/monotime"
+	protocol "github.com/alvarorichard/enetx-quic-go/internal/protocol"
 	gomock "go.uber.org/mock/gomock"
 )
 

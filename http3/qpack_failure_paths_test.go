@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/quic-go"
-	dynamic "github.com/enetx/quic-go/internal/qpack"
+	"github.com/alvarorichard/enetx-quic-go"
+	dynamic "github.com/alvarorichard/enetx-quic-go/internal/qpack"
 	base "github.com/quic-go/qpack"
 	"github.com/stretchr/testify/require"
 )

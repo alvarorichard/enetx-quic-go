@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/enetx/quic-go"
+	"github.com/alvarorichard/enetx-quic-go"
 )
 
 // PreconnectOptions controls connection readiness without sending a request.

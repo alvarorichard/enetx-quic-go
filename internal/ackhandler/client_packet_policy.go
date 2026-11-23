@@ -3,8 +3,8 @@ package ackhandler
 import (
 	"time"
 
-	"github.com/enetx/quic-go/internal/monotime"
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/monotime"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 )
 
 // PacketNumberLengthInfo is a send-loop snapshot for choosing 1..4 encoded

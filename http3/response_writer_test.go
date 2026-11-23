@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/enetx/http"
+	"github.com/alvarorichard/enetx-http"
 
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/http3/qlog"
-	"github.com/enetx/quic-go/testutils/events"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/http3/qlog"
+	"github.com/alvarorichard/enetx-quic-go/testutils/events"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"

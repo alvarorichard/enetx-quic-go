@@ -12,7 +12,7 @@ import (
 
 	"golang.org/x/net/ipv4"
 
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 
 	"github.com/stretchr/testify/require"
 )

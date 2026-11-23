@@ -1,6 +1,6 @@
 package quic
 
-import "github.com/enetx/quic-go/internal/congestion"
+import "github.com/alvarorichard/enetx-quic-go/internal/congestion"
 
 type CongestionControlAlgorithm = congestion.Algorithm
 type SlowStartAlgorithm = congestion.SlowStart

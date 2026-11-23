@@ -3,7 +3,7 @@ package quic
 import (
 	"testing"
 
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 	"go.uber.org/mock/gomock"
 )
 

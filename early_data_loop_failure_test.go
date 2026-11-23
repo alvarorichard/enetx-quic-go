@@ -5,12 +5,12 @@ import (
 	"testing"
 	"testing/synctest"
 
-	"github.com/enetx/quic-go/internal/ackhandler"
-	"github.com/enetx/quic-go/internal/handshake"
-	"github.com/enetx/quic-go/internal/mocks"
-	mockackhandler "github.com/enetx/quic-go/internal/mocks/ackhandler"
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/internal/wire"
+	"github.com/alvarorichard/enetx-quic-go/internal/ackhandler"
+	"github.com/alvarorichard/enetx-quic-go/internal/handshake"
+	"github.com/alvarorichard/enetx-quic-go/internal/mocks"
+	mockackhandler "github.com/alvarorichard/enetx-quic-go/internal/mocks/ackhandler"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/wire"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

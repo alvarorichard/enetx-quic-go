@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/qlog"
-	"github.com/enetx/quic-go/qlogwriter"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/qlog"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -1,6 +1,6 @@
 package quic
 
-import "github.com/enetx/quic-go/internal/protocol"
+import "github.com/alvarorichard/enetx-quic-go/internal/protocol"
 
 // prepareInitialCryptoPacket keeps optional Initial layout/protection outside
 // the native packer. The manager remains the sole owner of the crypto streams.

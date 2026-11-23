@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/enetx/http"
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/http3"
-	"github.com/enetx/quic-go/internal/testdata"
-	"github.com/enetx/quic-go/qlog"
-	"github.com/enetx/quic-go/qlogwriter"
+	"github.com/alvarorichard/enetx-http"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/http3"
+	"github.com/alvarorichard/enetx-quic-go/internal/testdata"
+	"github.com/alvarorichard/enetx-quic-go/qlog"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter"
 	"github.com/stretchr/testify/require"
 )
 

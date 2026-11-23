@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/enetx/g"
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-g"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 )
 
 var errReservedPeerSetting = errors.New("reserved HTTP/2 setting")

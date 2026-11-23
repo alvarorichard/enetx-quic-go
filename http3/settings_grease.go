@@ -3,8 +3,8 @@ package http3
 import (
 	"fmt"
 
-	"github.com/enetx/g"
-	"github.com/enetx/quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-g"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
 )
 
 // Per-connection reserved settings never change QPACK or protocol capabilities.

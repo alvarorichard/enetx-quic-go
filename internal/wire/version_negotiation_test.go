@@ -6,7 +6,7 @@ import (
 	mrand "math/rand/v2"
 	"testing"
 
-	"github.com/enetx/quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
 
 	"github.com/stretchr/testify/require"
 )

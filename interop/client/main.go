@@ -11,17 +11,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/enetx/http"
+	"github.com/alvarorichard/enetx-http"
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/http3"
-	"github.com/enetx/quic-go/internal/handshake"
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/internal/qtls"
-	"github.com/enetx/quic-go/interop/http09"
-	"github.com/enetx/quic-go/interop/utils"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/http3"
+	"github.com/alvarorichard/enetx-quic-go/internal/handshake"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/internal/qtls"
+	"github.com/alvarorichard/enetx-quic-go/interop/http09"
+	"github.com/alvarorichard/enetx-quic-go/interop/utils"
 )
 
 var errUnsupported = errors.New("unsupported test case")

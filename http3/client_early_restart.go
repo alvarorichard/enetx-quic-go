@@ -6,8 +6,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/enetx/http"
-	"github.com/enetx/quic-go"
+	"github.com/alvarorichard/enetx-http"
+	"github.com/alvarorichard/enetx-quic-go"
 )
 
 // earlyRestartClient owns successive HTTP/3 generations of one QUIC connection.

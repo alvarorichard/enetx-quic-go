@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/enetx/http"
-	httpcommon "github.com/enetx/http/headerorder"
+	"github.com/alvarorichard/enetx-http"
+	httpcommon "github.com/alvarorichard/enetx-http/headerorder"
 	"golang.org/x/net/http/httpguts"
 )
 

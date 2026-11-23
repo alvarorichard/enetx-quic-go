@@ -11,11 +11,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/enetx/http"
+	"github.com/alvarorichard/enetx-http"
 
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/http3/qlog"
-	"github.com/enetx/quic-go/qlogwriter"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/http3/qlog"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter"
 	"github.com/quic-go/qpack"
 	"golang.org/x/net/http/httpguts"
 )

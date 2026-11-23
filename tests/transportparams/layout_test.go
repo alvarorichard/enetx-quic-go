@@ -5,8 +5,8 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/enetx/quic-go/quicvarint"
-	"github.com/enetx/quic-go/transportparams"
+	"github.com/alvarorichard/enetx-quic-go/quicvarint"
+	"github.com/alvarorichard/enetx-quic-go/transportparams"
 )
 
 func encode(pairs ...transportparams.Parameter) []byte {

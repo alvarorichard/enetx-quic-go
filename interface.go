@@ -8,10 +8,10 @@ import (
 	"slices"
 	"time"
 
-	"github.com/enetx/quic-go/internal/handshake"
-	"github.com/enetx/quic-go/internal/protocol"
-	"github.com/enetx/quic-go/qlogwriter"
-	"github.com/enetx/quic-go/transportparams"
+	"github.com/alvarorichard/enetx-quic-go/internal/handshake"
+	"github.com/alvarorichard/enetx-quic-go/internal/protocol"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter"
+	"github.com/alvarorichard/enetx-quic-go/transportparams"
 )
 
 // The StreamID is the ID of a QUIC stream.

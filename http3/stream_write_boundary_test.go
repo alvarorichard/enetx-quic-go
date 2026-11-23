@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/enetx/quic-go"
+	"github.com/alvarorichard/enetx-quic-go"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

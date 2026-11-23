@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"unicode/utf8"
 
-	"github.com/enetx/quic-go"
-	"github.com/enetx/quic-go/qlogwriter/jsontext"
+	"github.com/alvarorichard/enetx-quic-go"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter/jsontext"
 )
 
 // Frame represents an HTTP/3 frame.

@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/enetx/quic-go"
-	. "github.com/enetx/quic-go/http3/qlog"
-	quicqlog "github.com/enetx/quic-go/qlog"
-	"github.com/enetx/quic-go/qlogwriter"
-	"github.com/enetx/quic-go/testutils/events"
+	"github.com/alvarorichard/enetx-quic-go"
+	. "github.com/alvarorichard/enetx-quic-go/http3/qlog"
+	quicqlog "github.com/alvarorichard/enetx-quic-go/qlog"
+	"github.com/alvarorichard/enetx-quic-go/qlogwriter"
+	"github.com/alvarorichard/enetx-quic-go/testutils/events"
 
 	"github.com/stretchr/testify/require"
 )
