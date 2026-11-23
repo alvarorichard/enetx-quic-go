@@ -1,0 +1,97 @@
+{
+  "provenance": "Native Chromium 158.0.8127.18 / Firefox 160.0 first HTTP/3 field section; https://github.com/enetx/surf/blob/v1.0.250/tests/testdata/wire/cold_http3/chrome-immediate-128.json",
+  "source_sha256": "84bb1cdcd18e5c28775c5e23bc9de0ab54c5e842adc77e527cba70ca2ed4bde3",
+  "source_pcap_sha256": "70821d33331308ea8bad7f4f0a1bc4f077dc1abd925df67ace75280957ab0d52",
+  "capacity": 128,
+  "options": {
+    "DynamicTable": true,
+    "Huffman": 1,
+    "Indexing": 0,
+    "DrainingFraction": 0.25,
+    "PostBaseReferences": false,
+    "LiteralInsertNames": false,
+    "StopOnInsertionFailure": false
+  },
+  "send_capacity": true,
+  "first_section": {
+    "path": "/warm/1",
+    "stream_id": 0,
+    "fields": [
+      {
+        "name": ":method",
+        "value": "GET"
+      },
+      {
+        "name": ":authority",
+        "value": "fbaf4acb307281.app.lhr.life:37671"
+      },
+      {
+        "name": ":scheme",
+        "value": "https"
+      },
+      {
+        "name": ":path",
+        "value": "/warm/1"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache"
+      },
+      {
+        "name": "sec-ch-ua-platform",
+        "value": "\"Linux\""
+      },
+      {
+        "name": "user-agent",
+        "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36"
+      },
+      {
+        "name": "sec-ch-ua",
+        "value": "\"Not.A/Brand\";v=\"24\", \"Chromium\";v=\"158\""
+      },
+      {
+        "name": "sec-ch-ua-mobile",
+        "value": "?0"
+      },
+      {
+        "name": "accept",
+        "value": "*/*"
+      },
+      {
+        "name": "sec-fetch-site",
+        "value": "same-origin"
+      },
+      {
+        "name": "sec-fetch-mode",
+        "value": "cors"
+      },
+      {
+        "name": "sec-fetch-dest",
+        "value": "empty"
+      },
+      {
+        "name": "referer",
+        "value": "https://fbaf4acb307281.app.lhr.life:37671/bootstrap"
+      },
+      {
+        "name": "accept-encoding",
+        "value": "gzip, deflate, br, zstd"
+      },
+      {
+        "name": "accept-language",
+        "value": "en-US,en;q=0.9"
+      },
+      {
+        "name": "priority",
+        "value": "u=1, i"
+      }
+    ],
+    "header_block_hex": "0300d181d7802daec1cd48ff86a8eb10649cbfe72f064148b1275ad1ad5d034ca7b29f07224c696e7578225f50ced07f66a281b0dae053fafc087ed4ce6aadf2a7979c89c6bfb521aeba0bc8b1e632586d975765c53facd8f7e8cff4a506ea5531149d4ffda97a7b0f49580b6f2e05c0b814dc394761986d975765cf2f004148b1275ad1ffa3fe749d2bc2c5db07549fcfdf783f9135fcfd29fcde9ec3d26b69fe7efbc1fc85b7bf9f2f044148b1275ad1ad49e33505023f30dd2f034148b4a549275906497f8840e92ac7b0d31aaf2f034148b4a549275a93c85f8321ec472f034148b4a549275a42a13f842d35a7d75da59d29ad17186258c72b43246c81d13c15c75d6bd13d8bd0694b71975c742c4673a509b075ff5f10929bd9abfa5242cb40d25fa523b3e94f684c9f5f398b2d4b70ddf45abefb4005df2eaec31ec327d785b600fd286f",
+    "tshark_fields_decoded": true
+  },
+  "whole_native_encoder_stream_hex": "3f61c0989631cad0c91b20744f0571d75af44f62f41a52dc65d71d0fc18663c0eca580ffc0989631cad0c91b20744f0571d75af44f62f41a52dc65d71d0fc18661042d43b0c7c0989631cad0c91b20744f0571d75af44f62f41a52dc65d71d0fc18561092d6c03c0989631cad0c91b20744f0571d75af44f62f41a52dc65d71d0fc18561092d6c07c0989631cad0c91b20744f0571d75af44f62f41a52dc65d71d0fc18561092d6c0bc0989631cad0c91b20744f0571d75af44f62f41a52dc65d71d0fc18561092d6c33c0989631cad0c91b20744f0571d75af44f62f41a52dc65d71d0fc18561092d6c35c0989631cad0c91b20744f0571d75af44f62f41a52dc65d71d0fc18561092d6c37c0989631cad0c91b20744f0571d75af44f62f41a52dc65d71d0fc18561092d6c39c0989631cad0c91b20744f0571d75af44f62f41a52dc65d71d0fc18561092d6c3bc0989631cad0c91b20744f0571d75af44f62f41a52dc65d71d0fc18561092d6c3dc0989631cad0c91b20744f0571d75af44f62f41a52dc65d71d0fc1876087a6ba0a92ff"
+}

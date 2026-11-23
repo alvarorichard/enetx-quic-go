@@ -1,0 +1,97 @@
+{
+  "provenance": "Native Chromium 158.0.8127.18 / Firefox 160.0 first HTTP/3 field section; https://github.com/enetx/surf/blob/v1.0.250/tests/testdata/wire/cold_http3/chrome-immediate-4096.json",
+  "source_sha256": "e5fa23fc7563a1c3c564bdfc01f79b43ea4ce857a5392cf19eb13f45e45521b6",
+  "source_pcap_sha256": "09b45408c0eb3e81e749d97cd2e5e28c5095046e1304aac190a72baa3cdeaca0",
+  "capacity": 4096,
+  "options": {
+    "DynamicTable": true,
+    "Huffman": 1,
+    "Indexing": 0,
+    "DrainingFraction": 0.25,
+    "PostBaseReferences": false,
+    "LiteralInsertNames": false,
+    "StopOnInsertionFailure": false
+  },
+  "send_capacity": true,
+  "first_section": {
+    "path": "/warm/1",
+    "stream_id": 0,
+    "fields": [
+      {
+        "name": ":method",
+        "value": "GET"
+      },
+      {
+        "name": ":authority",
+        "value": "fbaf4acb307281.app.lhr.life:41837"
+      },
+      {
+        "name": ":scheme",
+        "value": "https"
+      },
+      {
+        "name": ":path",
+        "value": "/warm/1"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache"
+      },
+      {
+        "name": "sec-ch-ua-platform",
+        "value": "\"Linux\""
+      },
+      {
+        "name": "user-agent",
+        "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36"
+      },
+      {
+        "name": "sec-ch-ua",
+        "value": "\"Not.A/Brand\";v=\"24\", \"Chromium\";v=\"158\""
+      },
+      {
+        "name": "sec-ch-ua-mobile",
+        "value": "?0"
+      },
+      {
+        "name": "accept",
+        "value": "*/*"
+      },
+      {
+        "name": "sec-fetch-site",
+        "value": "same-origin"
+      },
+      {
+        "name": "sec-fetch-mode",
+        "value": "cors"
+      },
+      {
+        "name": "sec-fetch-dest",
+        "value": "empty"
+      },
+      {
+        "name": "referer",
+        "value": "https://fbaf4acb307281.app.lhr.life:41837/bootstrap"
+      },
+      {
+        "name": "accept-encoding",
+        "value": "gzip, deflate, br, zstd"
+      },
+      {
+        "name": "accept-language",
+        "value": "en-US,en;q=0.9"
+      },
+      {
+        "name": "priority",
+        "value": "u=1, i"
+      }
+    ],
+    "header_block_hex": "0f00d18dd78c8be78a898887dd86858483828180",
+    "tshark_fields_decoded": true
+  },
+  "whole_native_encoder_stream_hex": "3fe11fc0989631cad0c91b20744f0571d75af44f62f41a52dc682f32efc18663c0eca580ff65aec1cd48ff86a8eb10649cbf6d4148b1275ad1ad5d034ca7b29f07224c696e757822ff20ced07f66a281b0dae053fafc087ed4ce6aadf2a7979c89c6bfb521aeba0bc8b1e632586d975765c53facd8f7e8cff4a506ea5531149d4ffda97a7b0f49580b6f2e05c0b814dc394761986d975765cf674148b1275ad1ffa3fe749d2bc2c5db07549fcfdf783f9135fcfd29fcde9ec3d26b69fe7efbc1fc85b7bf9f6b4148b1275ad1ad49e33505023f306a4148b4a549275906497f8840e92ac7b0d31aaf6a4148b4a549275a93c85f8321ec476a4148b4a549275a42a13f842d35a7d7cda59d29ad17186258c72b43246c81d13c15c75d6bd13d8bd0694b71a0bccbac4673a509b075ffdf929bd9abfa5242cb40d25fa523b3e94f684c9fff098b2d4b70ddf45abefb4005df66aec31ec327d785b600fd286fc18661042d43b0c7ddec497ca589d34d1f43aeba0c41a4c7a98f33a69a3fdf9a68fa1d75d0620d263d4c79a68fbed00177fe8d48e62b1d3cd1f46a4731581f734bf46a473158f058ebfa352398ac0ebaa6faf963e7efb4005defa1d75d0620d263d4c20d35459162f924e3aa62fdf782367efb4005dd8883a8f5178886a87dcd30d25f6a4148b4a549275ad416cf023f31898690e4b692d49f8685b6007d286fc18561092d6c03cda49d29ad17186258c72b43246c81d13c15c75d6bd13d8bd0694b71a0bccbac2085a87618ffc18561092d6c07ff158fba51d85b1420eb4db615694de4b27fc5911c1e7cf9f3e7cf9f3e7cf9f3e7cf9f3e7fc5928e0f5ebd7af5ebd7af5ebd7af5ebd7af5ebfc5ff32241efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7efdfbf7fc18561092d6c0bc18561092d6c33ff1590ba51d85b1420eb4db615624e3aa62c9fc18561092d6c35c18561092d6c37c5921c1dfbf7efdfbf7efdfbf7efdfbf7efdfbffc18561092d6c39c18561092d6c3bc18561092d6c3dc1876087a6ba0a92ff"
+}

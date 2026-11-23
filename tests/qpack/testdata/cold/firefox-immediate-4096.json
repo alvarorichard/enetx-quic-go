@@ -1,0 +1,89 @@
+{
+  "provenance": "Native Chromium 158.0.8127.18 / Firefox 160.0 first HTTP/3 field section; https://github.com/enetx/surf/blob/v1.0.250/tests/testdata/wire/cold_http3/firefox-immediate-4096.json",
+  "source_sha256": "45a0f00edb03fedee2ac7597f2999d2dfe486fcc3b108feadcb68246330079d5",
+  "source_pcap_sha256": "d7ba31f6397afbf57f3c8161d07e88c1e788ad74323e74bb5a0a0e837257bfc4",
+  "capacity": 4096,
+  "options": {
+    "DynamicTable": true,
+    "Huffman": 2,
+    "Indexing": 1,
+    "DrainingFraction": 0,
+    "PostBaseReferences": true,
+    "LiteralInsertNames": true,
+    "StopOnInsertionFailure": true
+  },
+  "send_capacity": true,
+  "first_section": {
+    "path": "/warm/0",
+    "stream_id": 0,
+    "fields": [
+      {
+        "name": ":method",
+        "value": "GET"
+      },
+      {
+        "name": ":scheme",
+        "value": "https"
+      },
+      {
+        "name": ":authority",
+        "value": "fbaf4acb307281.app.lhr.life:45191"
+      },
+      {
+        "name": ":path",
+        "value": "/warm/0"
+      },
+      {
+        "name": "user-agent",
+        "value": "Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0"
+      },
+      {
+        "name": "accept",
+        "value": "*/*"
+      },
+      {
+        "name": "accept-language",
+        "value": "en-US,en;q=0.9"
+      },
+      {
+        "name": "accept-encoding",
+        "value": "gzip, deflate, br, zstd"
+      },
+      {
+        "name": "referer",
+        "value": "https://fbaf4acb307281.app.lhr.life:45191/bootstrap"
+      },
+      {
+        "name": "alt-used",
+        "value": "fbaf4acb307281.app.lhr.life:45191"
+      },
+      {
+        "name": "sec-fetch-dest",
+        "value": "empty"
+      },
+      {
+        "name": "sec-fetch-mode",
+        "value": "cors"
+      },
+      {
+        "name": "sec-fetch-site",
+        "value": "same-origin"
+      },
+      {
+        "name": "priority",
+        "value": "u=4"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache"
+      }
+    ],
+    "header_block_hex": "0785d1d750989631cad0c91b20744f0571d75af44f62f41a52dc69b0be1f518663c0eca5807f5f50b5d07f66a281b0dae053fafc087ed4ce6aadf2a7979c89c6bed4b3bdc0b805c1fda988a4ea76040080010054c26b0b29fcb01700b83fdd5f398b2d4b70ddf45abefb4005df5f10929bd9abfa5242cb40d25fa523b3e94f684c9f5da49d29ad17186258c72b43246c81d13c15c75d6bd13d8bd0694b71a6c2f8588ce74a1360eb101112131415e7",
+    "tshark_fields_decoded": false
+  },
+  "whole_native_encoder_stream_hex": "3fe11f661d095ad4164f989631cad0c91b20744f0571d75af44f62f41a52dc69b0be1f6a4148b4a549275a42a13f842d35a7d76a4148b4a549275a93c85f8321ec476a4148b4a549275906497f8840e92ac7b0d31aaf66aec31ec327d783b606bf65aec1cd48ff86a8eb10649cbf6a4148b4a549275ad416cf82ff03"
+}
